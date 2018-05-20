@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+
+<!-- Setting up the overall framework - a wrapper to contain all -->
+   <div id="wrapper">
+
+    <!-- dividing the wrapper into three constituent parts: header, banner and footer -->
+        <div id="header">
+            <!-- Header has three constituent parts: python_logo_container, right_header_container, & ribbon -->
+            <div id="python_logo_container">
+                <img id="python_logo" src="python.png" alt="python logo">
+            </div>
+            <div id="right_header_container">
+                <!-- right_header container is divided into two blocks: (1) the text_size_changer_container and (2) the search_container -->
+                <div id=text_size_changer_container>
+                    <p id="Text_size_changer" class="text_size_change_items">Text Size:</p>
+                    <a id="Normal_text_changer" class="text_size_change_items" href="document.getElementById("wrapper").style.fontSize = "medium"">Normal</a>
+                    <a id="Large_text_changer" class="text_size_change_items" href="javascript:document.getElementById("wrapper").style.fontSize = "x-large"">Large</a>
+                </div>
+                <div id="search_container">
+                    <div id="search_highlighter">
+                        <form>
+                            <input type="search" name="search" value="search"><input id="Go_button" type="submit" value="Go">
+                        </form>
+                    </div>
+                </div>
+            </div>
+      
+            <div id="ribbon">
+                <a class="ribbon_links" href="#">About</a>
+                <a class="ribbon_links" href="#">Downloads</a>
+                <a class="ribbon_links" href="#">Documentation</a>
+                <a class="ribbon_links" href="#">Community</a>
+                <a class="ribbon_links" href="#">News</a>
+                <a class="ribbon_links" href="#">Events</a>
+            </div>
+        </div>
+
+        <div id="banner">
+            <!-- The banner has three constituent parts: left banner, right banner and middle stripe-->
+            <div id="left_banner">
+                <ul>
+                    <li Class="left_banner_list"></i><a href="#">Docs</a></li>
+                    <li Class="left_banner_list"><a href="#">Audio/Visual Talks</a></li>
+                    <li Class="left_banner_list"><a href="#">Beginner's Guide</a></li>
+                    <li Class="left_banner_list"><a href="#">Developer's Guide</a></li>
+                    <li Class="left_banner_list"><a href="#">PEP Index</a></li>
+                    <li Class="left_banner_list"><a href="#">Python Books</a></li>
+                    <li Class="left_banner_list"><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div id="right_banner">
+                <!-- right_banner is divided into top_right_banner and lower_right_banner -->
+                <p id="top_right_banner">First appearing in 1991, Python is a general-purpose, high-level, integrated programming<br>
+                language whose design focus emphasizes code readability. Whether for processing/analyzing <br>
+                data to powering many well-known applications. Python is not only a great language for new<br>
+                programmers but also powerful enough for seasoned developers building whatever they can think<br>
+                of.
+                </p>
+                <div id="lower_right_banner">
+                    <i>Beautiful is better than ugly;<br></i>
+                    <i>Explicit is better than implicit;<br></i>
+                    <i>Simple is better than complex;<br></i>
+                    <i>Complex is better than complicated;<br></i>
+                    <i>Readability counts;<br></i>
+                    <p>The Zen of Python</p>
+                </div>
+            </div>
+            <div id="middle_stripe">
+                <!-- middle stripe is divided into left and right middle stripes -->
+                <div id="left_middle_stripe" class="ms_containers">
+                    <h4 class="mid_stripe_heading">Getting Started</h4>
+                    <p class="mid_stripe_paragraph">Python can be easy to pick up whether you're<br>
+                    a first time programmer or you're experienced<br>
+                    with other languages. The following pages are<br>
+                    a useful first step to get on your way writing<br>
+                    programs with Python!
+                    </p>
+                    <ul class="middle_stripe_list">
+                        <li Class="ms_list"><a class="mslist_items" href="#">Beginner's Guide Programme</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Beginner's Guide Non-Programmers</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Code Sample and snippets for Beginners</a></li>
+                    </ul>
+                </div>
+                <div id="right_middle_stripe" class="ms_containers">
+                    <h4 class="mid_stripe_heading">Applications</h4>
+                    <p class="mid_stripe_paragraph">The <a href="#">Python package index (PyPI)</a> hosts thousands of<br>
+                    third-party modules for Python. Both Python's<br>
+                    standard library and the community-<br>
+                    contributed modules allow for endless<br>
+                    possibilities
+                    </p>
+                    <ul class="middle_stripe_list">
+                        <li Class="ms_list"><a class="mslist_items" href="#">Web and Internet Development</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Database Access</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Desktop GUIs</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Network Programming</a></li>
+                        <li Class="ms_list"><a class="mslist_items" href="#">Software and Game Development</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <!-- The footer has two constituent parts: 1) other items and (2)the copyright paragraph-->
+            <div id="other_items">
+                <a class="other_items_links" href="#">Help and General Contact</a>
+                <a class="other_items_links" href="#">Diversity Initiatives</a>
+                <a class="other_items_links" href="#">Submit Website Bugs</a>
+            </div>
+            <p id="copyright">Copyright &copy, 2001:2016</p>
+        </div>
+   </div>
+</body>
+</html>
